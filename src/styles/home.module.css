@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerNav{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content:  flex-end;
+    align-items: center;
+    background-color: #B0BAA3;
+    position: fixed;
+   
+}
+
+.Navbutton{
+    padding:15px 20px 15px 20px;
+    background-color:#4B3C41;
+    border-radius:10px;
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+.SuperContainer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+
+.container{
+    margin-top: 80px;
+}
+
+.containerItem{
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin: 20px 20px;
+}
+
+.containerImgAndAdc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.imgItem{
+    width: 150px;
+    
+    
+}
+
+.Adc{
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 18px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+    
+}

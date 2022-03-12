@@ -1,0 +1,97 @@
+.superContainer{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start ;
+    
+}
+
+.containerItem{
+    width: 300px;
+    height: 400px;
+    background-color:#F7E8C9;
+    margin-top: 80px;
+    overflow-y: scroll;
+}
+
+.containerItensCart{
+    width: 100%;
+    display: flex;
+}
+
+.containerDescCart{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containerDescIMg{
+    width: 30%;
+
+}
+
+.containerDescItem{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0px 20px 0px -20px;
+    
+   
+}
+
+.containerDesc{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.itemCartImg{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.itemCartApaga{
+    text-align: end;
+    margin-bottom: 20px;
+}
+.itemCartName{
+    text-align: center;
+}
+.itemCartTama{
+    text-align: end;
+    margin-right: 10px;
+}
+.itemCartPrice{
+    text-align: end;
+    margin-right: 10px;
+}
+
+.button1{
+    padding:3px 9px;
+    font-size: 20px;
+}
+.button2{
+    padding:3px 11px;
+    font-size: 20px;
+}
+
+.containerCartModal{
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.containerCartModal:last-child{
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+

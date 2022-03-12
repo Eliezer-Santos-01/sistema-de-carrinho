@@ -1,0 +1,151 @@
+.modalContainer{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgba(255,255,255,0.5);
+}
+
+.container{
+    width: 600px;
+    height: 400px;
+    background-color:#F7E8C9;
+    border-radius:10px;
+}
+
+.containeritens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.containerModalImg{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.ModalImg{
+    width: 250px;
+}
+
+.containerModalDesc{
+    width: 50%;
+}
+
+.itemModalName{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.itemModalDesc{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 30px; 
+}
+
+.containerSizes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.containerItemSizes{
+    padding: 10px 18px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.itemModalSizes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+
+.containerModalItemSizes{
+    display: flex;
+    justify-content: center;
+}
+
+.itemSizes{
+    width: 58%;
+    padding: 10px 20px;
+    background-color:#4A3F2A;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.itemSizesModal{
+    text-align: center;
+    margin-top:20px;
+    font-size:20px;
+}
+
+.itemSizes :last-child{
+    
+    margin-right: 0px;
+   
+}
+.containerButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 30px 20px 0px;
+}
+
+.modalButton{
+    padding:5px 10px;
+}
+
+.modalQuant{
+    font-size:20px;
+    margin: 0px 10px 0px 10px;
+}
+
+.modalButton2{
+    padding:5px 12px;
+}
+
+.containerBtnADcCar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txtItem{
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.itemModalPrice{
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.modalButtonAdcCart{
+    padding:15px 50px;
+    margin-right: 30px;
+}
